@@ -2,13 +2,13 @@ import { add, sub } from '../src/utils/math';
 
 // 加上 not 後就變成「不等於 」
 describe('Check add', () => {
-  beforeEach(() => {
-    console.log('每次執行測試前執行哦');
-  });
+  // beforeEach(() => {
+  //   console.log('每次執行測試前執行哦');
+  // });
 
-  afterAll(() => {
-    console.log('所有測試結束後才看得見我');
-  });
+  // afterAll(() => {
+  //   console.log('所有測試結束後才看得見我');
+  // });
 
   test('Check the result of 5 + 2', () => {
     expect(add(5, 2)).not.toBe(8);
